@@ -1,5 +1,5 @@
 # What it is?
-This is working code used for multipulse transient absorption experiments on Orange Carotenoid Protein, performed in 2024 at Max-Planck Institute for Medical Research, Heidelberg.
+This is working code used for multipulse transient absorption experiments, performed in 2024 at Max-Planck Institute for Medical Research, Heidelberg.
 
 # Concept
 There are 4 essential scripts used in these experiments.
