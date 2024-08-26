@@ -13,3 +13,12 @@ There are 4 essential scripts used in these experiments.
 4) plot_data.py is Python script intended to be run after preprocess.py succesfully completed data reduction and processing (that is a slow process). It performs some final steps of data interpretation (like setting proper transient absoorbance signal value before the pulse - so that it is always set to "zero" before the first laser pulse - note that probing does not always cover both laser pulses due to probe light effect on the sample kinetics). Then it plots data in a "pretty way" intended to be used for the presentation/publication.
 
 Note that these scripts are not designed to run out-of-box, they have been written for the specific hardware that I utilized. However, they can be adapted and used to develop similar setups, and I will be happy to help you if you want do develop you own variation of this setup using this code.
+
+# Timing diagram
+Experimental sequence implemented by run_sequence.py is depicited below:
+![image](https://github.com/user-attachments/assets/41430780-ceae-4ce5-9694-08729f17b02b)
+One trigger pulse sequence implemented by arduino_timing_code.ino is depicited below:
+![image](https://github.com/user-attachments/assets/78279f44-2783-402f-8bbf-fff3d8bf7634)
+
+# Final comments
+Note that these scripts are not designed to run out-of-box, they have been written for the specific hardware that I utilized. However, they can be adapted and used to develop similar setups, and I will be happy to help you if you want do develop you own variation of this setup using this code.
