@@ -20,5 +20,34 @@ Experimental sequence implemented by run_sequence.py is depicited below:
 One trigger pulse sequence implemented by arduino_timing_code.ino is depicited below:
 ![image](https://github.com/user-attachments/assets/78279f44-2783-402f-8bbf-fff3d8bf7634)
 
+# Requirements
+
+SYSTEM REQUIREMENTS
+-MS Windows
+-python3.7 or higher with matplotlib, numpy, copy, pyserial, sifreader modules installed
+-Spyder IDE 5.3.3 or higher
+-Arduino IDE 2.2.1 or higher
+
+HARDWARE REQUIREMENTS
+-Windows PC with serial connections to:      
+-Arduino Nano or compatible with ATMEGA32U4 or similar
+-ESP300/ESP301 motion controller                   
+
+INSTALLATION GUIDE
+-copy the python scripts to an appropriate directory
+-copy the arduino code to an appropriate directory in the Spyder IDE sketchbook
+-compile the arduino source code and upload to the board using the arduino toolchain
+-time required: several minutes
+
+DEMO/RUN ON ACTUAL DATA
+To run an experiment, load the run_sequence.py script into Spyder, edit the parameters as needed and execute
+Typical run time: 12-24h
+
+To preprocess data, load the preprocess.py script into Spyder IDE, edit parameters as needed and execute
+Typical run time: 10-60 minutes
+
+To prepare plots from preprocessed data, load the plot_data.py script into Spyder IDE, edit parameters as needed and execute
+Typical run time: several seconds
+
 # Final comments
-Note that these scripts are not designed to run out-of-box, they have been written for the specific hardware that I utilized. However, they can be adapted and used to develop similar setups, and I will be happy to help you if you want do develop you own variation of this setup using this code.
+Note that running experiment running scripts requires properly developed and aligned experimental setup. Data processing scripts can be run using experimental data available elsewhere. This code is shared with intenstion to explain how the experiment works and how data are processed. This code can be adapted and used to develop similar setups, and I will be happy to help you if you want do develop you own variation of this setup using this code.
