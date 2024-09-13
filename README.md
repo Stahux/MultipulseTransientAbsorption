@@ -40,14 +40,9 @@ INSTALLATION GUIDE
 -time required: several minutes
 
 DEMO/RUN ON ACTUAL DATA
-To run an experiment, load the run_sequence.py script into Spyder, edit the parameters as needed and execute
-Typical run time: 12-24h
-
-To preprocess data, load the preprocess.py script into Spyder IDE, edit parameters as needed and execute
-Typical run time: 10-60 minutes
-
-To prepare plots from preprocessed data, load the plot_data.py script into Spyder IDE, edit parameters as needed and execute
-Typical run time: several seconds
+To plot exemplary data (cut to fit into the Github file size limit), load the plot_data.py script into Spyder and execute it.
+Typical run time: <1min
 
 # Final comments
-Note that running experiment running scripts requires properly developed and aligned experimental setup. Data processing scripts can be run using experimental data available elsewhere. This code is shared with intenstion to explain how the experiment works and how data are processed. This code can be adapted and used to develop similar setups, and I will be happy to help you if you want do develop you own variation of this setup using this code.
+Note that running experiment running scripts requires properly developed and aligned experimental setup. Data processing scripts can be run using experimental data available elsewhere. This code is shared with intention to explain how the experiment works and how data are processed. This code can be adapted and used to develop similar setups, and I will be happy to help you if you want do develop you own variation of this setup using this code.
+
