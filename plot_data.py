@@ -24,7 +24,7 @@ import copy as cp
 
 ################### LOAD DATA ###################
 #################################################
-directory = "10-07-2024 OCP 74" #here specify dataset that should be processed
+directory = "exemplary_data" #here specify dataset that should be processed
 #################################################
 buffer_directory = ""#../12-05-2024 buffer 47" #specify buffer-only dataset for subtraction
 #################################################
@@ -33,8 +33,8 @@ buffer_directory = ""#../12-05-2024 buffer 47" #specify buffer-only dataset for 
 
 
 #below set if use all delays or only those for where good correction is done
-nkins = 8 #use 10 for 2hv proteins and 8 for 1hv proteins
-spacing = 0.02 #for multi-kinetic graphs - vertical offset
+nkins = 10 #use 10 for 2hv proteins and 8 for 1hv proteins
+spacing = 0.002 #for multi-kinetic graphs - vertical offset
 
 #save drop this code to dir too to know later what was used to process this data
 file_code = open("plot_data.py", "r")
